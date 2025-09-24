@@ -28,7 +28,6 @@ This README is generated from your project report. Please replace TODO sections 
 We Care for Urban Fauna is designed to streamline urban animal rescue by connecting citizens, local NGOs, and volunteers. Users can submit geo‑tagged reports (with photos/videos), NGOs can triage cases and assign volunteers, and progress is tracked until closure.  
 This repository contains the source code and assets for the full application.
 
-> Project Title from report: **“WE CARE FOR URBAN FAUNA: Animal Rescue & NGO Connection.”**
 
 ## Key Features
 - Citizen portal to **report animal in distress** with location, media, and notes.
@@ -40,10 +39,9 @@ This repository contains the source code and assets for the full application.
 - **Analytics**: case volumes, response times, NGO load, heatmaps (optional).
 - **Admin controls**: user/NGO onboarding, permissions, configuration.
 
-> Tailor the list above to exactly match your implemented modules.
+
 
 ## System Architecture
-<!-- TODO: Replace with your exact architecture -->
 - **Client:** Web app (and/or mobile app)
 - **Server/API:** REST/GraphQL service
 - **Database:** Relational (e.g., PostgreSQL/MySQL) or NoSQL (e.g., MongoDB)
@@ -59,7 +57,6 @@ A high‑level flow:
 5. Status updates feed back to user and NGO dashboards until closure.
 
 ## Screenshots
-<!-- TODO: Add real screenshots -->
 - Landing page / login
 - Case submission form
 - NGO dashboard (triage, case list)
@@ -67,7 +64,6 @@ A high‑level flow:
 - Analytics page
 
 ## Tech Stack
-<!-- TODO: Fill in exact frameworks and versions -->
 - **Frontend:** React / Angular / Vue / Flutter (specify)
 - **Backend:** Node.js/Express / Django / Spring Boot / Laravel (specify)
 - **DB:** PostgreSQL / MySQL / MongoDB (specify)
