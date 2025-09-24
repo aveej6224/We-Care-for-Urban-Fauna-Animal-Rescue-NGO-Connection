@@ -1,0 +1,23 @@
+# Node
+node_modules/
+dist/
+npm-debug.log*
+yarn.lock
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.env/
+
+# Java
+target/
+*.iml
+.idea/
+
+# General
+.DS_Store
+*.log
+*.sqlite
+.env
+.env.local

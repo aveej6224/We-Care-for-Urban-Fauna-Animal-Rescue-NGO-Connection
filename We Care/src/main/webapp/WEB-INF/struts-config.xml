@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts-config PUBLIC 
+"-//Apache Software Foundation//DTD Struts Configuration 1.3//EN" 
+"http://jakarta.apache.org/struts/dtds/struts-config_1_3.dtd">
+
+<struts-config>
+
+	<form-beans>
+		<form-bean name="User" type="Beans.User" />
+		<form-bean name="Organization" type="Beans.Organization" />
+		<form-bean name="Country" type="Beans.Country" />
+	</form-beans>
+
+
+	<action-mappings>
+		<action path="/MainAction" type="action.MainAction" name="User"
+			scope="session">
+			<forward name="login" path="/JSP/Dashboard.jsp"
+				redirect="true" />
+			<forward name="success" path="/JSP/Dashboard.jsp"
+				redirect="true" />
+			<forward name="raiseRequest" path="/JSP/raiseRequest.jsp" />
+			<forward name="approveRequest" path="/JSP/approveRequest.jsp"
+				redirect="true" />
+			<forward name="viewStatus" path="/JSP/viewStatus.jsp"
+				redirect="true" />
+			<forward name="orgList" path="/JSP/organization.jsp"
+				redirect="true" />
+			<forward name="logout" path="/HTML/Login.html"
+				redirect="true" />
+			<forward name="signUp" path="/JSP/signUp.jsp" redirect="true" />
+			<forward name="acceptUser" path="/JSP/acceptUser.jsp"
+				redirect="true" />
+			<forward name="assignUser" path="/JSP/assignUser.jsp"
+				redirect="true" />
+			<forward name="created" path="/HTML/Login.html"
+				redirect="true" />
+			<forward name="logout" path="/HTML/Login.html"
+				redirect="true" />
+
+		</action>
+
+
+	</action-mappings>
+
+</struts-config>
